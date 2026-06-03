@@ -1,5 +1,27 @@
 [
   {
+    "employeeId": "f0c064lwmpxlnshc",
+    "type": "linkedin",
+    "to": [],
+    "body": "Hi nikita, I came across an SDE opening at Cybaem Tech Pvt Ltd. I have 1+ years of experience and would love a referral. Could I share my resume?",
+    "date": "2026-06-03T06:01:27.793Z",
+    "employeeName": "nikita n",
+    "id": "kcky9jhwmpxnryep"
+  },
+  {
+    "employeeId": "f0c064lwmpxlnshc",
+    "type": "email",
+    "to": [
+      "nikitanagargoje4@gmail.com"
+    ],
+    "subject": "Referral request for full stack developer at tcs",
+    "body": "Hi nikita,\n\nI hope you're doing well. I noticed an opening for full stack developer at tcs. Based on my background, I believe I'd be a strong fit.\n\nWould you be open to referring me?\n\nThanks,\nYour Name",
+    "date": "2026-06-03T05:56:24.138Z",
+    "employeeName": "nikita n",
+    "resumeName": "Ganesh Kale Resume.pdf",
+    "id": "su7xeuqdmpxnlg3u"
+  },
+  {
     "employeeId": "zmbetuf8mpxf26he",
     "type": "email",
     "to": [

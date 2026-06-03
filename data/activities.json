@@ -1,5 +1,71 @@
 [
   {
+    "id": "9tk6vg47mpxntfxs",
+    "date": "2026-06-03T06:02:37.168Z",
+    "type": "application",
+    "refId": "o5ez5k2nmpxnomm1",
+    "text": "full stack developer @ Cybaem Tech Pvt Ltd → Offer"
+  },
+  {
+    "id": "o2zaswxjmpxnt8mo",
+    "date": "2026-06-03T06:02:27.696Z",
+    "type": "application",
+    "refId": "f0uek0k4mpxeezs4",
+    "text": "SDE I @ Amazon → Interview Round 2"
+  },
+  {
+    "id": "f7gqq0udmpxnsyko",
+    "date": "2026-06-03T06:02:14.664Z",
+    "type": "application",
+    "refId": "f0uek0k4mpxeezs4",
+    "text": "SDE I @ Amazon → Offer"
+  },
+  {
+    "id": "ugecc7i3mpxnssxk",
+    "date": "2026-06-03T06:02:07.352Z",
+    "text": "Follow-up scheduled with nikita n",
+    "type": "followup",
+    "refId": "8mg49fs0mpxnssxk",
+    "companyId": "6j906qvbmpxnqh5k"
+  },
+  {
+    "id": "6zv7lcn0mpxnseww",
+    "date": "2026-06-03T06:01:49.184Z",
+    "text": "Follow-up completed",
+    "type": "followup",
+    "refId": "3em6dau8mpxeqdau"
+  },
+  {
+    "id": "q5zeme21mpxnryep",
+    "date": "2026-06-03T06:01:27.793Z",
+    "text": "LinkedIn message copied for nikita n",
+    "type": "employee",
+    "refId": "f0c064lwmpxlnshc",
+    "companyId": "6j906qvbmpxnqh5k"
+  },
+  {
+    "id": "6lor5u71mpxnqh5k",
+    "date": "2026-06-03T06:00:18.776Z",
+    "text": "Added company \"Cybaem Tech Pvt Ltd\"",
+    "type": "company",
+    "refId": "6j906qvbmpxnqh5k"
+  },
+  {
+    "id": "g3jr6ofkmpxnomm1",
+    "date": "2026-06-03T05:58:52.537Z",
+    "text": "Application added: full stack developer",
+    "type": "application",
+    "refId": "o5ez5k2nmpxnomm1"
+  },
+  {
+    "id": "5tw7a4w2mpxnlg3v",
+    "date": "2026-06-03T05:56:24.139Z",
+    "text": "Email sent to nikita n with Ganesh Kale Resume.pdf",
+    "type": "employee",
+    "refId": "f0c064lwmpxlnshc",
+    "companyId": "nt9duekompxekeu4"
+  },
+  {
     "id": "4ebxh7l8mpxlnshd",
     "date": "2026-06-03T05:02:14.257Z",
     "text": "Added employee nikita n",

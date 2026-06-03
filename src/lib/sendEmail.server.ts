@@ -12,8 +12,8 @@ export const sendEmailFn = createServerFn({ method: "POST" })
     };
   })
   .handler(async ({ data }) => {
-    const user = process.env.GMAIL_USER;
-    const pass = process.env.GMAIL_APP_PASSWORD;
+    const user = process.env.GMAIL_USER?.trim();
+    const pass = process.env.GMAIL_APP_PASSWORD?.replace(/\s+/g, "");
 
     if (!user || !pass) {
       throw new Error(
@@ -36,13 +36,23 @@ export const sendEmailFn = createServerFn({ method: "POST" })
       });
     }
 
-    await transporter.sendMail({
-      from: `Ganesh Kale <${user}>`,
-      to: data.to.join(", "),
-      subject: data.subject,
-      text: data.body,
-      attachments,
-    });
+    try {
+      await transporter.sendMail({
+        from: `Ganesh Kale <${user}>`,
+        to: data.to.join(", "),
+        subject: data.subject,
+        text: data.body,
+        attachments,
+      });
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      if (message.includes("535-5.7.8") || message.includes("Invalid login")) {
+        throw new Error(
+          "Gmail rejected the login. Use a Gmail App Password generated for the same GMAIL_USER account, not your normal Gmail password.",
+        );
+      }
+      throw error;
+    }
 
     return { success: true };
   });
