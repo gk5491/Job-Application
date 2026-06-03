@@ -17,7 +17,7 @@ export const sendEmailFn = createServerFn({ method: "POST" })
 
     if (!user || !pass) {
       throw new Error(
-        "Gmail credentials not configured. Set GMAIL_USER and GMAIL_APP_PASSWORD in Replit Secrets.",
+        "Gmail credentials not configured. Set GMAIL_USER and GMAIL_APP_PASSWORD in Render environment variables.",
       );
     }
 

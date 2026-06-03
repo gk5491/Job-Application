@@ -1,5 +1,23 @@
 [
   {
+    "id": "f0c064lwmpxlnshc",
+    "name": "nikita n",
+    "companyId": "nt9duekompxekeu4",
+    "designation": "full stack developer",
+    "linkedinUrl": "",
+    "emails": [
+      "Nikitanagargoje4@gmail.com"
+    ],
+    "email": "Nikitanagargoje4@gmail.com",
+    "contactDate": "2026-06-03",
+    "method": "LinkedIn",
+    "referralStatus": "Not Contacted",
+    "notes": "",
+    "emailSubject": "Referral request for full stack developer at tcs",
+    "emailDraft": "Hi nikita,\n\nI hope you're doing well. I noticed an opening for full stack developer at tcs. Based on my background, I believe I'd be a strong fit.\n\nWould you be open to referring me?\n\nThanks,\nYour Name",
+    "linkedinDraft": ""
+  },
+  {
     "id": "zmbetuf8mpxf26he",
     "name": "Ganesh Kale",
     "companyId": "rbom3kmkmpxeezs4",
