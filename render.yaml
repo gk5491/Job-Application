@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: job-application
+    env: node
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NITRO_PRESET
+        value: render_com
+      - key: DATA_DIR
+        value: /opt/render/project/src/.render-data
+    disks:
+      - name: job-application-data
+        mountPath: /opt/render/project/src/.render-data
+        sizeGB: 1

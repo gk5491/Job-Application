@@ -1,7 +1,8 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const DATA_DIR = join(process.cwd(), "data");
+const DEFAULT_DATA_DIR = join(process.cwd(), "data");
+const DATA_DIR = process.env.DATA_DIR || DEFAULT_DATA_DIR;
 
 function uid(): string {
   return Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
@@ -84,6 +85,9 @@ const SECTIONS = [
 export function readAllSections() {
   ensureDir();
   if (!existsSync(filePath("companies"))) {
+    seedFromBundledData();
+  }
+  if (!existsSync(filePath("companies"))) {
     const seed = makeSeed();
     for (const [section, data] of Object.entries(seed)) {
       writeSection(section, data);
@@ -95,6 +99,18 @@ export function readAllSections() {
     result[section] = readSection(section, []);
   }
   return result as ReturnType<typeof makeSeed>;
+}
+
+function seedFromBundledData() {
+  if (DATA_DIR === DEFAULT_DATA_DIR || !existsSync(DEFAULT_DATA_DIR)) return;
+
+  for (const section of SECTIONS) {
+    const source = join(DEFAULT_DATA_DIR, `${section}.json`);
+    const target = filePath(section);
+    if (existsSync(source) && !existsSync(target)) {
+      copyFileSync(source, target);
+    }
+  }
 }
 
 export function writeAllSections(data: Record<string, unknown>) {
