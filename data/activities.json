@@ -1,0 +1,61 @@
+[
+  {
+    "id": "6iftdzdvmpxf2vnm",
+    "date": "2026-06-03T01:58:00.898Z",
+    "text": "Email sent to ganesh with Ganesh Kale Resume.pdf",
+    "type": "employee",
+    "refId": "zmbetuf8mpxf26he",
+    "companyId": "rbom3kmkmpxeezs4"
+  },
+  {
+    "id": "x8e6n6xvmpxf26hf",
+    "date": "2026-06-03T01:57:28.275Z",
+    "text": "Added employee ganesh",
+    "type": "employee",
+    "refId": "zmbetuf8mpxf26he",
+    "companyId": "rbom3kmkmpxeezs4"
+  },
+  {
+    "id": "l54u4w9gmpxeyr1e",
+    "date": "2026-06-03T01:54:48.290Z",
+    "text": "Email sent to Rahul Sharma with Ganesh Kale Resume.pdf",
+    "type": "employee",
+    "refId": "x5mdnym3mpxeezs4",
+    "companyId": "rbom3kmkmpxeezs4"
+  },
+  {
+    "id": "e8q3y1lcmpxewxu8",
+    "date": "2026-06-03T01:53:23.792Z",
+    "text": "Saved job \"AI engineer\"",
+    "type": "job",
+    "refId": "s7hxaghimpxewxu8"
+  },
+  {
+    "id": "f6vg75k5mpxevukb",
+    "date": "2026-06-03T01:52:32.891Z",
+    "text": "Saved job \"full stack developer\"",
+    "type": "job",
+    "refId": "93l2kj1wmpxevukb"
+  },
+  {
+    "id": "mjqwtyvtmpxeqdav",
+    "date": "2026-06-03T01:48:17.239Z",
+    "text": "Follow-up scheduled with Rahul Sharma",
+    "type": "followup",
+    "refId": "3em6dau8mpxeqdau",
+    "companyId": "rbom3kmkmpxeezs4"
+  },
+  {
+    "id": "ryk2smv7mpxekeu4",
+    "date": "2026-06-03T01:43:39.292Z",
+    "text": "Added company \"tcs\"",
+    "type": "company",
+    "refId": "nt9duekompxekeu4"
+  },
+  {
+    "id": "3d4y3n97mpxeezs4",
+    "date": "2026-06-03T01:39:26.500Z",
+    "type": "general",
+    "text": "Welcome to your Job Hunt CRM"
+  }
+]

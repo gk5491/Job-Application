@@ -1,0 +1,28 @@
+[
+  {
+    "employeeId": "zmbetuf8mpxf26he",
+    "type": "email",
+    "to": [
+      "ganeshkale5491@gmail.com"
+    ],
+    "subject": "Referral request for Full Stack Developer at Amazon",
+    "body": "Hi ganesh,\n\nI hope you're doing well. I noticed an opening for Full Stack Developer at Amazon. Based on my background, I believe I'd be a strong fit.\n\nWould you be open to referring me?\n\nThanks,\nYour Name",
+    "date": "2026-06-03T01:58:00.898Z",
+    "employeeName": "ganesh",
+    "resumeName": "Ganesh Kale Resume.pdf",
+    "id": "lzlpchngmpxf2vnm"
+  },
+  {
+    "employeeId": "x5mdnym3mpxeezs4",
+    "type": "email",
+    "to": [
+      "ganeshkale5491@gmail.com"
+    ],
+    "subject": "Referral request for SDE I at Amazon",
+    "body": "Hi Ganesh,\n\nI hope you're doing well. I noticed an opening for SDE I at Amazon. Based on my background, I believe I'd be a strong fit.\n\nWould you be open to referring me?\n\nThanks,\nYour Name",
+    "date": "2026-06-03T01:54:48.290Z",
+    "employeeName": "Rahul Sharma",
+    "resumeName": "Ganesh Kale Resume.pdf",
+    "id": "bee12rr5mpxeyr1e"
+  }
+]

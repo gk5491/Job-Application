@@ -1,0 +1,12 @@
+[
+  {
+    "id": "mt5hna1wmpxeezs4",
+    "name": "Referral Request",
+    "message": "Hi {name}, I came across an SDE opening at {company}. I have X years of experience and would love a referral. Could I share my resume?"
+  },
+  {
+    "id": "l58sltw9mpxeezs4",
+    "name": "Follow-up",
+    "message": "Hi {name}, just following up on my previous message about the {role} role at {company}. Appreciate any guidance!"
+  }
+]

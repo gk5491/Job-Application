@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nt9duekompxekeu4",
+    "name": "tcs",
+    "website": "tcs.com",
+    "location": "pune",
+    "notes": "",
+    "createdAt": "2026-06-03T01:43:39.292Z"
+  },
+  {
+    "id": "rbom3kmkmpxeezs4",
+    "name": "Amazon",
+    "website": "https://amazon.jobs",
+    "location": "Bangalore",
+    "notes": "Target company",
+    "createdAt": "2026-06-03T01:39:26.500Z"
+  },
+  {
+    "id": "q8k7mek7mpxeezs4",
+    "name": "Google",
+    "website": "https://careers.google.com",
+    "location": "Hyderabad",
+    "notes": "",
+    "createdAt": "2026-06-03T01:39:26.500Z"
+  }
+]

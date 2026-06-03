@@ -1,0 +1,8 @@
+[
+  {
+    "id": "nv5x6s94mpxeezs4",
+    "name": "Cold Email - Referral",
+    "subject": "Referral request for {role} at {company}",
+    "body": "Hi {name},\n\nI hope you're doing well. I noticed an opening for {role} at {company}. Based on my background, I believe I'd be a strong fit.\n\nWould you be open to referring me?\n\nThanks,\nYour Name"
+  }
+]
